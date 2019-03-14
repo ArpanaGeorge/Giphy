@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Giphy</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css">
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/giphy.js"></script>
+    </head>
+    <body>
+        <div class="container-fluid bg-important">
+          <!-- div section for the topic button display -->
+          <div class="row">
+             <div id="buttons-view"></div>
+          </div>
+          <div class="row">
+             <!-- div section for gifs -->
+             <div class="col-9" id="gifs-appear-here">
+             </div >
+             <!-- form section for adding a nature category -->
+             <div class="col-3 ">
+                 <form id="topic-form">
+                    <label for="topic-input" class="m-2">Add a nature category</label><br>
+                    <input type="text" id="topic-input" class="m-2"><br>
+                    
+                    <!-- Button triggers new topics to be added -->
+                    <input id="topic-button" type="submit" value="submit" class="m-2">
+                 </form>
+       
+        </div>
+    </div>
+    </div>
+ </body>
+</html>

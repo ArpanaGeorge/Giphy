@@ -1,0 +1,30 @@
+.topic{
+    margin: 10px;
+}
+form{
+    position: absolute;
+    right: 15px;
+}
+body{
+    background-color:blue;
+}
+gifDiv{
+    margin: 10px;
+}
+
+#gifs-appear-here {
+	/* clear: both;
+	display: inline;
+    flex-wrap: wrap; */
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gif, .rate{
+    margin: 20px;
+    float: left;
+   }
+
+  
