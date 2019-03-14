@@ -38,7 +38,7 @@ $(document).ready(function()
      renderButtons();
  });
  
- $(".topic").on("click", function(event) {
+ $(document).on("click", ".topic",function(event) {
      event.preventDefault();
      console.log ("inside"+$(".topic").text());
      console.log("testing");
